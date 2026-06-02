@@ -1,0 +1,5 @@
+index,dataset,axial,coronal,sagittal
+0,train,/data/sub-001/T1w.nii.gz,/data/sub-001/T1w.nii.gz,/data/sub-001/T1w.nii.gz
+1,train,/data/sub-002/T1w.nii.gz,/data/sub-002/T1w.nii.gz,/data/sub-002/T1w.nii.gz
+2,val,/data/sub-003/T1w.nii.gz,/data/sub-003/T1w.nii.gz,/data/sub-003/T1w.nii.gz
+3,test,/data/sub-004/T1w.nii.gz,/data/sub-004/T1w.nii.gz,/data/sub-004/T1w.nii.gz

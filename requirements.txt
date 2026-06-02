@@ -1,0 +1,30 @@
+# Core training & inference
+torch==2.3.1.post100
+torchvision==0.18.1a0
+einops==0.8.0
+pytorch-msssim==1.0.0
+
+# Volume I/O
+SimpleITK==2.2.1
+nibabel==5.3.2
+tifffile==2024.12.12
+
+# Image / array processing
+numpy==1.26.4
+scikit-image==0.24.0
+scipy==1.14.1
+Pillow==11.0.0
+
+# Data handling & visualization
+pandas==2.3.3
+matplotlib==3.9.2
+
+# Evaluation metrics
+piq==0.8.0
+torchmetrics==1.4.0.post0
+
+# Optional (used in evaluation scripts)
+pytorch-lightning==2.3.0
+fft-conv-pytorch==1.2.0
+
+# Install via:  conda activate imputation && pip install -r requirements.txt

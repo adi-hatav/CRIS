@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local config (machine-specific paths)
+config/local.yaml
+config/local.yml
+.env
+.env.*
+
+# Training / inference outputs
+models/
+**/CRIS_Dataset/
+**/isotropic_volumes/
+**/figures/losses plots/
+
+# Checkpoints and large tensors (keep code-only repo)
+*.pth
+*.pt
+*.nii
+*.nii.gz
+*.dcm
+
+# Logs and metrics from local runs
+*.log
+wandb/
+lightning_logs/
+
+# Project notes (not for public repo)
+CONTEXT.md
+RECOMMENDATIONS.md
+running_script.py
+
+# Tests and ad-hoc scripts
+scripts/run_evaluation_tests.py
+scripts/old_files/
+scripts/adi_testing.py
+scripts/evaluate_epfl.py
+smoke_test.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data manifests with local absolute paths (keep docs/examples only)
+*_local.csv
