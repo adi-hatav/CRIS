@@ -1,12 +1,12 @@
 # CRIS — Cross-plane Reconstruction for Isotropic Slices
 
-> **Paper:** TBD  
-> **Authors:** TBD  
-> **Links:** TBD (arXiv · paper · project page)
+> **Paper:** [CRIS: Cross-Plane Self-Supervised Isotropic Restoration for Anisotropic Volumetric Imaging Across Modalities](https://arxiv.org/abs/2606.15967)  
+> **Authors:** Adi Ahituv, Anat Ilivitzki, and Moti Freiman  
+> **Links:** [arXiv](https://arxiv.org/abs/2606.15967) · [PDF](https://arxiv.org/pdf/2606.15967) · [Code](https://github.com/adi-hatav/CRIS)
 
 ---
 
-![CRIS graphical abstract](docs/figures/grafhical_abstruct.png)
+![CRIS graphical abstract](docs/figures/graphical_abstract.png)
 
 ---
 
@@ -220,13 +220,14 @@ Full CLI reference and `patch_size` / `window_size` compatibility: **[`docs/cli.
 
 ## Citation
 
-Paper details TBD. When available, cite as:
+If you use this code, please cite the arXiv preprint:
 
 ```bibtex
-@article{cris2026,
-  title   = {TBD},
-  author  = {TBD},
-  journal = {TBD},
-  year    = {TBD},
+@article{ahituv2026cris,
+  title   = {CRIS: Cross-Plane Self-Supervised Isotropic Restoration for Anisotropic Volumetric Imaging Across Modalities},
+  author  = {Ahituv, Adi and Ilivitzki, Anat and Freiman, Moti},
+  journal = {arXiv preprint arXiv:2606.15967},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.15967}
 }
 ```

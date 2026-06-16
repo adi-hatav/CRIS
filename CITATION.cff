@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "CRIS: Cross-Plane Self-Supervised Isotropic Restoration for Anisotropic Volumetric Imaging Across Modalities"
+message: "If you use this code, please cite the arXiv preprint."
+type: article
+authors:
+  - family-names: Ahituv
+    given-names: Adi
+  - family-names: Ilivitzki
+    given-names: Anat
+  - family-names: Freiman
+    given-names: Moti
+year: 2026
+repository-code: "https://github.com/adi-hatav/CRIS"
+url: "https://arxiv.org/abs/2606.15967"
